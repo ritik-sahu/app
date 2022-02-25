@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center; */
+    /* background-color:; */
+}
+
+section ::placeholder {
+    color: #3C3C3C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+
+}
+
+section {
+    width: 375px;
+    height: 812px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #FFF;
+
+}
+
+.yellow-circle {
+    /* width: 40%; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-radius: 20px 0;
+}
+
+.back-button {
+    position: absolute;
+    z-index: 3;
+    left: 30px;
+    top: 30px;
+}
+
+.blue-circle {
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.pale-yellow-circle {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    border-radius: 0 20px;
+}
+
+h1 {
+    position: absolute;
+    top: 132px;
+    left: 32px;
+    z-index: 2;
+    color: #fff;
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+
+}
+
+section .mid {
+    margin-top: 105%;
+}
+
+section .mid2 {
+    margin-top: 80%;
+}
+
+section .mid2 input {
+
+    padding: 15px;
+    margin: 20px 20px 0;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 80%;
+
+}
+
+section .mid input {
+
+    padding: 15px;
+    margin: 20px 20px 0;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    width: 80%;
+
+}
+
+
+.sign-in {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.sign-in button {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 100px 30px;
+
+}
+
+.bottom button {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+
+
+.bottom .sign-bottom {
+    background: url("./images/yellow-rectangle.svg");
+    background-size: 100px 40px;
+    padding: 0 7px;
+    z-index: 1;
+
+}
+
+/* create account additional codes  */
+
+.white-circle-m {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    border-radius: 20px 0;
+}
+
+.blue-arrow-button {
+    z-index: 2;
+}
+
+.create-account {
+    width: 375px;
+    height: 812px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #EDC218;
+}
+
+.bottom .sign-bottom-r {
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.bottom .sign-bottom-r {
+    background: url("./images/yellow-rectangle.svg");
+    background-size: 100px 40px;
+    padding: 0 7px;
+    z-index: 1;
+
+}
+
+.create-account ::placeholder {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+/* Home page additional code */
+
+
+
+.profile-details-top {
+    position: absolute;
+    z-index: 1;
+    margin: 35px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-top {
+    margin: 20px;
+}
+
+.p-small {
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.p-medium {
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.profile-img {
+    float: left;
+    margin: 5px auto;
+    padding-right: 5px;
+    width: 37px;
+    height: 37px;
+
+}
+
+.notification {
+    margin-left: 125px;
+}
+
+.balance-container {
+    position: absolute;
+    left: 23px;
+    top: 118px;
+    width: 329px;
+    height: 112px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.balance-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #143784;
+    margin: 5px 0 0px 15px;
+}
+
+.balance-number {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 20px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide-see-img {
+    margin-left: 36%;
+}
+
+.wallet-id {
+    width: 50%;
+    background-color: rgba(20, 55, 132, 0.53);
+    border-radius: 5px;
+    color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.wallet-id-text {
+    font-size: 12px;
+}
+
+.blue-rect-bot {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 20px 20px;
+    z-index: 2;
+
+}
+
+/* Fund wallet addition codes*/ 
+
+.fund-wallet {
+    width: 130px;
+    height: 50px;
+    background-color: #206DFF;
+    position: absolute;
+    z-index: 1;
+    left: 23px;
+    top: 242px;
+    border: 1px solid #fff;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.porium-pay {
+    width: 130px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 171px;
+    top: 242px;
+    border: 1px solid #fff;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #143784;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.wallet-img {
+    margin-right: 10px;
+}
+
+.collapse-img {
+    margin: 0 8px 0 -8px;
+}
+
+/* Main container of home */
+
+.main {
+    width: 355px;
+    height: 442px;
+    background-color: #fff;
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    top: 315px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+
+.grey-line {
+    width: 64px;
+    height: 3px;
+    margin: 15px 0 15px 148px;
+    border-radius: 5px;
+   background-color: #AEAAAA; 
+}
+
+.grey-rect-bot {
+    width: 309px;
+    height: 107px;
+    margin: 37px 23px;    
+    background-color: #C4C4C4;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+}
+
+.options {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.options-txt-bot {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.button-main {
+    margin: 10px 10px;
+ 
+}
+
+/* bottom menu */
+
+.menu {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 12px;
+    
+}
+
+.menu span {
+    color: #EDC218;
+}
+
+/* Fund wallet addition codes */
+.main_fund {
+    width: 355px;
+    height: 665px;
+    background-color: #fff;
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    top: 90px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main_fund .top-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 70px 20px;
+}
+
+.main_fund .top-container img {
+    margin-right: 15px;
+}
+
+.blue-box {
+    width: 302px;
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #143784;
+    border-radius: 10px;
+    margin: 20px auto;
+    color: #fff;
+}
+
+/* Select additional codes */
+
+.select-container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: left;
+    border: none;
+    margin: 0 10px;
+    
+    
+}
+.select-container .transfer-type {
+        margin: 10px 40px;
+        text-align: left;
+}
+
+.select-options {
+    width: 90%;
+    padding: 12px 50px 12px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: #3C3C3C;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-appearance: none;
+    
+}
+
+.select-container img {
+    position: absolute;
+    z-index: 4;
+    right: 40px;
+    top: 162px;
+}
+
+.drop-down{
+    width: 100%;
+    /* background-color: red; */
+}
+
+
+
